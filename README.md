@@ -4,7 +4,7 @@ Demo app for testing Java RMI.
 
 ## Demo
 
-See `makefile` for build and run commands
+See `makefile` for build and run commands.
 
 Build the source code
 
