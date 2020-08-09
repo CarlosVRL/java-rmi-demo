@@ -7,7 +7,7 @@ builddocker: build
 	@ docker build --tag $(image) .
 
 start:
-	@ docker run --rm -d $(image)
+	@ docker run --rm -d -p 1099:1099 --name $(image)-dev $(image)
 
 rmiwin:
 	@ start rmiregistry

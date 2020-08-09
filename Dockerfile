@@ -1,5 +1,7 @@
 FROM openjdk:8-jdk
 
+EXPOSE 1099
+
 ADD src/main/java/*.class /app/
 
 WORKDIR /app
